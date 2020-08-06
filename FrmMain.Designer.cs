@@ -23,7 +23,6 @@ namespace WebServer
         private Label label6;
         private LinkLabel linkLabel1;
         private ToolStripMenuItem MenuBack;
-        private ToolStripMenuItem MenuFangPage;
         private ToolStripMenuItem MenuOpenPath;
         private ToolStripMenuItem MenuOpenURL;
         private ToolStripMenuItem MenuReStart;
@@ -74,7 +73,6 @@ namespace WebServer
             this.MenuOpenURL = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuBack = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuOpenPath = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuFangPage = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuReStart = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStop = new System.Windows.Forms.ToolStripMenuItem();
             this.btnRestart = new System.Windows.Forms.Button();
@@ -160,17 +158,16 @@ namespace WebServer
             this.MenuOpenURL,
             this.MenuBack,
             this.MenuOpenPath,
-            this.MenuFangPage,
             this.MenuReStart,
             this.MenuStop});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(161, 158);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 158);
             // 
             // MenuShowInfo
             // 
             this.MenuShowInfo.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.MenuShowInfo.Name = "MenuShowInfo";
-            this.MenuShowInfo.Size = new System.Drawing.Size(160, 22);
+            this.MenuShowInfo.Size = new System.Drawing.Size(180, 22);
             this.MenuShowInfo.Text = "打开服务器窗口";
             this.MenuShowInfo.Click += new System.EventHandler(this.MenuShowInfo_Click);
             // 
@@ -178,7 +175,7 @@ namespace WebServer
             // 
             this.MenuOpenURL.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.MenuOpenURL.Name = "MenuOpenURL";
-            this.MenuOpenURL.Size = new System.Drawing.Size(160, 22);
+            this.MenuOpenURL.Size = new System.Drawing.Size(180, 22);
             this.MenuOpenURL.Text = "打开站点首页";
             this.MenuOpenURL.Click += new System.EventHandler(this.MenuOpenURL_Click);
             // 
@@ -186,7 +183,7 @@ namespace WebServer
             // 
             this.MenuBack.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.MenuBack.Name = "MenuBack";
-            this.MenuBack.Size = new System.Drawing.Size(160, 22);
+            this.MenuBack.Size = new System.Drawing.Size(180, 22);
             this.MenuBack.Text = "打开站点后台";
             this.MenuBack.Click += new System.EventHandler(this.MenuBack_Click);
             // 
@@ -194,23 +191,15 @@ namespace WebServer
             // 
             this.MenuOpenPath.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.MenuOpenPath.Name = "MenuOpenPath";
-            this.MenuOpenPath.Size = new System.Drawing.Size(160, 22);
+            this.MenuOpenPath.Size = new System.Drawing.Size(180, 22);
             this.MenuOpenPath.Text = "打开站点目录";
             this.MenuOpenPath.Click += new System.EventHandler(this.MenuOpenPath_Click);
-            // 
-            // MenuFangPage
-            // 
-            this.MenuFangPage.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
-            this.MenuFangPage.Name = "MenuFangPage";
-            this.MenuFangPage.Size = new System.Drawing.Size(160, 22);
-            this.MenuFangPage.Text = "方配官方网站";
-            this.MenuFangPage.Click += new System.EventHandler(this.MenuFangPage_Click);
             // 
             // MenuReStart
             // 
             this.MenuReStart.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.MenuReStart.Name = "MenuReStart";
-            this.MenuReStart.Size = new System.Drawing.Size(160, 22);
+            this.MenuReStart.Size = new System.Drawing.Size(180, 22);
             this.MenuReStart.Text = "重启站点服务";
             this.MenuReStart.Click += new System.EventHandler(this.MenuReStart_Click);
             // 
@@ -218,7 +207,7 @@ namespace WebServer
             // 
             this.MenuStop.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.MenuStop.Name = "MenuStop";
-            this.MenuStop.Size = new System.Drawing.Size(160, 22);
+            this.MenuStop.Size = new System.Drawing.Size(180, 22);
             this.MenuStop.Text = "停止站点服务";
             this.MenuStop.Click += new System.EventHandler(this.MenuStop_Click);
             // 

@@ -184,7 +184,7 @@ namespace WebServer
 
         private void lnkHome_Click(object sender, EventArgs e)
         {
-            Utils.StartHttp("http://www.fangpage.com");
+            Utils.StartHttp("http://www.Jaylosy.com");
         }
 
         private void MenuBack_Click(object sender, EventArgs e)
@@ -192,9 +192,9 @@ namespace WebServer
             this.btnBack_Click(null, null);
         }
 
-        private void MenuFangPage_Click(object sender, EventArgs e)
+        private void MenuJaylosy_Click(object sender, EventArgs e)
         {
-            Utils.StartHttp("http://www.fangpage.com");
+            Utils.StartHttp("http://www.Jaylosy.com");
         }
 
         private void MenuOpenPath_Click(object sender, EventArgs e)
